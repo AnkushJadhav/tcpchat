@@ -1,0 +1,28 @@
+{
+  "name": "tcpchat",
+  "version": "1.0.0",
+  "description": "TCP based P2P chat and file transfer application for nodes on a private network",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnkushJadhav/tcpchat.git"
+  },
+  "keywords": [
+    "tcp",
+    "chat",
+    "network"
+  ],
+  "author": "Ankush Jadhav",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AnkushJadhav/tcpchat/issues"
+  },
+  "homepage": "https://github.com/AnkushJadhav/tcpchat#readme",
+  "dependencies": {
+    "inquirer": "^7.0.6"
+  }
+}
