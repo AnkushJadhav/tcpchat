@@ -18,10 +18,11 @@ function main() {
             ])
             .then(answers => {
                 discovery.Start(answers.identity);
+                console.log('sidufh');
             })
             .catch(error => {
                 if (error.isTtyError) {
-                    console.error("cant run");
+                    console.error("tty errror");
                 } else {
                     console.error(error);
                 }
